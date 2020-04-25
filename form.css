@@ -1,0 +1,153 @@
+body{
+   text-align: center;
+   font-size: 1rem;
+}
+body input{
+    background-color: transparent;
+}
+#main::before{
+  
+  content: "";
+  background: url(./logo.png);
+  opacity: 0.25;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  z-index: -1;  
+  background-position-y: 100%;
+}
+#patti{
+    background-color: rgb(4, 4, 148);
+    margin-top: -4%;
+    margin-bottom: 3%;
+}
+    
+#main{
+    width: 80%;
+    margin: 2% 10%;
+    border: 5px solid rgb(4, 4, 148);
+    padding: 2rem;
+    box-shadow: -15px 15px grey;
+
+}
+#submit{
+margin-left : 43%;
+margin-top: 5%;
+border-radius: 25px;
+padding : 1% 5%;
+font-size: 1.5rem;
+background-color: rgb(4, 4, 148);
+border : black;
+color: white;
+
+}
+#submit:hover{
+    background-color:lightblue;
+    color:  rgb(4, 4, 148);
+    cursor: pointer;
+}    
+#school{
+  width: 30%;
+  display : inline-block;
+  margin-bottom: 5%;
+  position: sticky;
+  text-align: left;
+  color: rgb(4, 4, 148);
+
+ 
+}
+h1,h2{
+  text-align : left;
+  font-family: cursive;
+  color: rgb(4, 4, 148);
+}
+h2:hover{
+    color: rgb(134, 134, 255);
+    text-decoration : underline
+}
+
+#final{
+    text-decoration: none;
+}
+#final:hover{
+    text-transform: uppercase;
+    text-decoration: wavy;
+}
+form h1.h3{
+  padding: 0%;
+  margin: 0;
+  font-family: cursive;
+  color: rgb(4, 4, 148);
+
+}
+h4{
+    padding: 0%;
+    margin: 0;
+    font-family: cursive;
+}
+#class{
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+}
+span{
+    color: rgb(134, 134, 255);
+}
+form input[type=text]{
+    
+        outline: 0;
+        border-width: 0 0 2px;
+        border-color: blue;
+        width: 30%;
+        margin: 1%;
+        text-align: left;
+        /* opacity: 0.5; */
+        font-size: 1rem; 
+        text-transform: capitalize;
+      }
+form input:focus {
+        border-color: black;
+}
+form{
+    text-align: left;
+}
+form input[type=date]{
+  margin-right: 20%;
+}
+table input[type=text]{
+    border: 0 0 1px solid blue;
+    width: 90%;
+}
+table{
+    width: 100%;
+    display: inline-table;
+    text-align: center;
+   
+   margin-bottom: 5%;
+}
+
+
+label{
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+th{
+    font-style: italic;
+}
+p{
+    font-style: italic;
+}
+#fees{
+    font-style: italic;
+    font-weight: bolder;
+    margin-top: 3%;
+}
+input[type = radio]{
+    margin-inline-start : 10%;
+}

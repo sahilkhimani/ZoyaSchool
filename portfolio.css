@@ -1,0 +1,62 @@
+#photo{
+margin: 2%;
+
+} 
+body{
+    margin-left: 2%;
+}
+.picture{
+    display:flex;
+    width: 100%;
+    margin: 0%;
+    margin-bottom: -9%;
+}
+#edit{
+    color : black;
+    text-decoration: none;
+}
+#edit:hover{
+    color : blue;
+    text-decoration: underline;
+
+}
+.experience{
+    font-family : cursive;
+    font-style: italic;
+}
+img{
+    width: 120px;
+    border : 7px solid rgb(5, 150, 118);
+    margin-left : -20%;
+
+}
+.heading{
+    display: flex;
+    
+}
+p{
+    color: black;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+h1,h3,h4{
+    color: rgb(5, 150, 118);
+    text-transform: capitalize;  
+}
+#patti{
+   background-color:  rgb(5, 150, 118); 
+   width: 62%;
+   margin: 2.5% 2% 20% -1%;
+}
+label{
+    color: rgb(5, 150, 118) ;
+    width : 100%;
+} 
+.patti1{
+    background-color:  rgb(5, 150, 118); 
+    width: 87%;
+    margin: 1.7% 2%;
+
+}
